@@ -1,0 +1,228 @@
+Microsoft Windows [Version 6.1.7601]
+(c) Корпорация Майкрософт (Microsoft Corp.), 2009. Все права защищены.
+
+E:\GitHub\BookApp>mvn -X jetty:run
+Apache Maven 3.2.1 (ea8b2b07643dbb1b84b6d16e1f08391b666bc1e9; 2014-02-14T19:37:52+02:00)
+Maven home: C:\Program Files (x86)\Apache\apache-maven-3.2.1
+Java version: 1.8.0_05, vendor: Oracle Corporation
+Java home: C:\Program Files\Java\jdk1.8.0_05\jre
+Default locale: ru_RU, platform encoding: Cp1251
+OS name: "windows 7", version: "6.1", arch: "amd64", family: "dos"
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from C:\Program Files (x86)\Apache\apache-maven-3.2.1\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\Vladis\.m2\settings.xml
+[DEBUG] Using local repository at C:\Users\Vladis\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\Vladis\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project AppBook:AppBook:war:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging war from ClassRealm[plexus.core, parent: null]
+[DEBUG] Resolving plugin prefix jetty from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-maven-plugin:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml in local (C:\Users\Vladis\.m2\repository)
+[DEBUG] Skipped remote update check for org.springframework.boot:spring-boot-maven-plugin:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-maven-plugin:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml in local (C:\Users\Vladis\.m2\repository)
+[DEBUG] Skipped remote update check for org.springframework.boot:spring-boot-maven-plugin:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-tools:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml in local (C:\Users\Vladis\.m2\repository)
+[DEBUG] Skipped remote update check for org.springframework.boot:spring-boot-tools:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-parent:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml in local (C:\Users\Vladis\.m2\repository)
+[DEBUG] Skipped remote update check for org.springframework.boot:spring-boot-parent:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-dependencies:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml in local (C:\Users\Vladis\.m2\repository)
+[DEBUG] Skipped remote update check for org.springframework.boot:spring-boot-dependencies:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in local (C:\Users\Vladis\.m2\repository)
+[DEBUG] Failure to find org.apache.maven.plugins/maven-metadata.xml in http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until t
+he update interval of spring-snapshots has elapsed or updates are forced
+[DEBUG] Failure to find org.apache.maven.plugins/maven-metadata.xml in http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until
+the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Failure to find org.apache.maven.plugins/maven-metadata.xml in http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until th
+e update interval of spring-releases has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.apache.maven.plugins/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in local (C:\Users\Vladis\.m2\repository)
+[DEBUG] Failure to find org.codehaus.mojo/maven-metadata.xml in http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the upda
+te interval of spring-snapshots has elapsed or updates are forced
+[DEBUG] Failure to find org.codehaus.mojo/maven-metadata.xml in http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the upd
+ate interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Failure to find org.codehaus.mojo/maven-metadata.xml in http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until the updat
+e interval of spring-releases has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.codehaus.mojo/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in local (C:\Users\Vladis\.m2\repository)
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in local (C:\Users\Vladis\.m2\repository)
+[DEBUG] Using connector WagonRepositoryConnector with priority 0.0 for http://repo.spring.io/release
+[DEBUG] Using connector WagonRepositoryConnector with priority 0.0 for http://repo.maven.apache.org/maven2
+[DEBUG] Using connector WagonRepositoryConnector with priority 0.0 for http://repo.spring.io/snapshot
+[DEBUG] Using connector WagonRepositoryConnector with priority 0.0 for http://repo.spring.io/milestone
+Downloading: http://repo.spring.io/release/org/apache/maven/plugins/maven-metadata.xml
+Downloading: http://repo.spring.io/milestone/org/apache/maven/plugins/maven-metadata.xml
+Downloading: http://repo.spring.io/snapshot/org/apache/maven/plugins/maven-metadata.xml
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+[DEBUG] Writing tracking file C:\Users\Vladis\.m2\repository\org\apache\maven\plugins\resolver-status.properties
+[DEBUG] Using connector WagonRepositoryConnector with priority 0.0 for http://repo.spring.io/snapshot
+Downloading: http://repo.spring.io/snapshot/org/codehaus/mojo/maven-metadata.xml
+[DEBUG] Writing tracking file C:\Users\Vladis\.m2\repository\org\apache\maven\plugins\resolver-status.properties
+[DEBUG] Using connector WagonRepositoryConnector with priority 0.0 for http://repo.spring.io/milestone
+Downloading: http://repo.spring.io/milestone/org/codehaus/mojo/maven-metadata.xml
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (13 KB at 25.0 KB/sec)
+[DEBUG] Writing tracking file C:\Users\Vladis\.m2\repository\org\apache\maven\plugins\resolver-status.properties
+[DEBUG] Using connector WagonRepositoryConnector with priority 0.0 for http://repo.spring.io/release
+Downloading: http://repo.spring.io/release/org/codehaus/mojo/maven-metadata.xml
+[DEBUG] Writing tracking file C:\Users\Vladis\.m2\repository\org\apache\maven\plugins\resolver-status.properties
+[DEBUG] Using connector WagonRepositoryConnector with priority 0.0 for http://repo.maven.apache.org/maven2
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 KB at 91.3 KB/sec)
+[DEBUG] Writing tracking file C:\Users\Vladis\.m2\repository\org\codehaus\mojo\resolver-status.properties
+[DEBUG] Writing tracking file C:\Users\Vladis\.m2\repository\org\codehaus\mojo\resolver-status.properties
+[DEBUG] Writing tracking file C:\Users\Vladis\.m2\repository\org\codehaus\mojo\resolver-status.properties
+[DEBUG] Writing tracking file C:\Users\Vladis\.m2\repository\org\codehaus\mojo\resolver-status.properties
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in spring-snapshots (http://repo.spring.io/snapshot)
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in spring-milestones (http://repo.spring.io/milestone)
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in spring-releases (http://repo.spring.io/release)
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in spring-snapshots (http://repo.spring.io/snapshot)
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in spring-milestones (http://repo.spring.io/milestone)
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in spring-releases (http://repo.spring.io/release)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.265 s
+[INFO] Finished at: 2014-07-09T14:18:18+02:00
+[INFO] Final Memory: 9M/100M
+[INFO] ------------------------------------------------------------------------
+[ERROR] No plugin found for prefix 'jetty' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (C:\
+Users\Vladis\.m2\repository), spring-snapshots (http://repo.spring.io/snapshot), spring-milestones (http://repo.spring.io/milestone), spring-releases (http://repo.spring.io/release
+), central (http://repo.maven.apache.org/maven2)] -> [Help 1]
+org.apache.maven.plugin.prefix.NoPluginFoundForPrefixException: No plugin found for prefix 'jetty' in the current project and in the plugin groups [org.apache.maven.plugins, org.co
+dehaus.mojo] available from the repositories [local (C:\Users\Vladis\.m2\repository), spring-snapshots (http://repo.spring.io/snapshot), spring-milestones (http://repo.spring.io/mi
+lestone), spring-releases (http://repo.spring.io/release), central (http://repo.maven.apache.org/maven2)]
+        at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolve(DefaultPluginPrefixResolver.java:93)
+        at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.findPluginForPrefix(MojoDescriptorCreator.java:260)
+        at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.getMojoDescriptor(MojoDescriptorCreator.java:220)
+        at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments(DefaultLifecycleTaskSegmentCalculator.java:106)
+        at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments(DefaultLifecycleTaskSegmentCalculator.java:86)
+        at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:85)
+        at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:361)
+        at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:155)
+        at org.apache.maven.cli.MavenCli.execute(MavenCli.java:584)
+        at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:213)
+        at org.apache.maven.cli.MavenCli.main(MavenCli.java:157)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:483)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+[ERROR]
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
+E:\GitHub\BookApp>mvn -X jetty:run
+Apache Maven 3.2.1 (ea8b2b07643dbb1b84b6d16e1f08391b666bc1e9; 2014-02-14T19:37:52+02:00)
+Maven home: C:\Program Files (x86)\Apache\apache-maven-3.2.1
+Java version: 1.8.0_05, vendor: Oracle Corporation
+Java home: C:\Program Files\Java\jdk1.8.0_05\jre
+Default locale: ru_RU, platform encoding: Cp1251
+OS name: "windows 7", version: "6.1", arch: "amd64", family: "dos"
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from C:\Program Files (x86)\Apache\apache-maven-3.2.1\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\Vladis\.m2\settings.xml
+[DEBUG] Using local repository at C:\Users\Vladis\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\Vladis\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project AppBook:AppBook:war:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging war from ClassRealm[plexus.core, parent: null]
+[DEBUG] Resolving plugin prefix jetty from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-maven-plugin:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml in local (C:\Users\Vladis\.m2\repository)
+[DEBUG] Skipped remote update check for org.springframework.boot:spring-boot-maven-plugin:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-maven-plugin:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml in local (C:\Users\Vladis\.m2\repository)
+[DEBUG] Skipped remote update check for org.springframework.boot:spring-boot-maven-plugin:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-tools:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml in local (C:\Users\Vladis\.m2\repository)
+[DEBUG] Skipped remote update check for org.springframework.boot:spring-boot-tools:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-parent:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml in local (C:\Users\Vladis\.m2\repository)
+[DEBUG] Skipped remote update check for org.springframework.boot:spring-boot-parent:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-dependencies:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml in local (C:\Users\Vladis\.m2\repository)
+[DEBUG] Skipped remote update check for org.springframework.boot:spring-boot-dependencies:1.1.0.BUILD-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in local (C:\Users\Vladis\.m2\repository)
+[DEBUG] Failure to find org.apache.maven.plugins/maven-metadata.xml in http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until t
+he update interval of spring-snapshots has elapsed or updates are forced
+[DEBUG] Failure to find org.apache.maven.plugins/maven-metadata.xml in http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until
+the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Failure to find org.apache.maven.plugins/maven-metadata.xml in http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until th
+e update interval of spring-releases has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.apache.maven.plugins/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in local (C:\Users\Vladis\.m2\repository)
+[DEBUG] Failure to find org.codehaus.mojo/maven-metadata.xml in http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the upda
+te interval of spring-snapshots has elapsed or updates are forced
+[DEBUG] Failure to find org.codehaus.mojo/maven-metadata.xml in http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the upd
+ate interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Failure to find org.codehaus.mojo/maven-metadata.xml in http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until the updat
+e interval of spring-releases has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.codehaus.mojo/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in local (C:\Users\Vladis\.m2\repository)
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in local (C:\Users\Vladis\.m2\repository)
+[DEBUG] Using connector WagonRepositoryConnector with priority 0.0 for http://repo.spring.io/milestone
+[DEBUG] Using connector WagonRepositoryConnector with priority 0.0 for http://repo.maven.apache.org/maven2
+[DEBUG] Using connector WagonRepositoryConnector with priority 0.0 for http://repo.spring.io/release
+[DEBUG] Using connector WagonRepositoryConnector with priority 0.0 for http://repo.spring.io/snapshot
+Downloading: http://repo.spring.io/release/org/apache/maven/plugins/maven-metadata.xml
+Downloading: http://repo.spring.io/snapshot/org/apache/maven/plugins/maven-metadata.xml
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Downloading: http://repo.spring.io/milestone/org/apache/maven/plugins/maven-metadata.xml
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (13 KB at 28.3 KB/sec)
+[DEBUG] Writing tracking file C:\Users\Vladis\.m2\repository\org\apache\maven\plugins\resolver-status.properties
+[DEBUG] Using connector WagonRepositoryConnector with priority 0.0 for http://repo.spring.io/snapshot
+Downloading: http://repo.spring.io/snapshot/org/codehaus/mojo/maven-metadata.xml
+[DEBUG] Writing tracking file C:\Users\Vladis\.m2\repository\org\apache\maven\plugins\resolver-status.properties
+[DEBUG] Using connector WagonRepositoryConnector with priority 0.0 for http://repo.spring.io/milestone
+[DEBUG] Writing tracking file C:\Users\Vladis\.m2\repository\org\apache\maven\plugins\resolver-status.properties
+Downloading: http://repo.spring.io/milestone/org/codehaus/mojo/maven-metadata.xml
+[DEBUG] Writing tracking file C:\Users\Vladis\.m2\repository\org\apache\maven\plugins\resolver-status.properties
+[DEBUG] Using connector WagonRepositoryConnector with priority 0.0 for http://repo.spring.io/release
+Downloading: http://repo.spring.io/release/org/codehaus/mojo/maven-metadata.xml
+[DEBUG] Using connector WagonRepositoryConnector with priority 0.0 for http://repo.maven.apache.org/maven2
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 KB at 91.7 KB/sec)
+[DEBUG] Writing tracking file C:\Users\Vladis\.m2\repository\org\codehaus\mojo\resolver-status.properties
+[DEBUG] Writing tracking file C:\Users\Vladis\.m2\repository\org\codehaus\mojo\resolver-status.properties
+[DEBUG] Writing tracking file C:\Users\Vladis\.m2\repository\org\codehaus\mojo\resolver-status.properties
+[DEBUG] Writing tracking file C:\Users\Vladis\.m2\repository\org\codehaus\mojo\resolver-status.properties
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in spring-snapshots (http://repo.spring.io/snapshot)
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in spring-milestones (http://repo.spring.io/milestone)
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in spring-releases (http://repo.spring.io/release)
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in spring-snapshots (http://repo.spring.io/snapshot)
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in spring-milestones (http://repo.spring.io/milestone)
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in spring-releases (http://repo.spring.io/release)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.096 s
+[INFO] Finished at: 2014-07-09T14:18:54+02:00
+[INFO] Final Memory: 9M/100M
+[INFO] ------------------------------------------------------------------------
+[ERROR] No plugin found for prefix 'jetty' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (C:\
+Users\Vladis\.m2\repository), spring-snapshots (http://repo.spring.io/snapshot), spring-milestones (http://repo.spring.io/milestone), spring-releases (http://repo.spring.io/release
+), central (http://repo.maven.apache.org/maven2)] -> [Help 1]
+org.apache.maven.plugin.prefix.NoPluginFoundForPrefixException: No plugin found for prefix 'jetty' in the current project and in the plugin groups [org.apache.maven.plugins, org.co
+dehaus.mojo] available from the repositories [local (C:\Users\Vladis\.m2\repository), spring-snapshots (http://repo.spring.io/snapshot), spring-milestones (http://repo.spring.io/mi
+lestone), spring-releases (http://repo.spring.io/release), central (http://repo.maven.apache.org/maven2)]
+        at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolve(DefaultPluginPrefixResolver.java:93)
+        at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.findPluginForPrefix(MojoDescriptorCreator.java:260)
+        at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.getMojoDescriptor(MojoDescriptorCreator.java:220)
+        at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments(DefaultLifecycleTaskSegmentCalculator.java:106)
+        at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments(DefaultLifecycleTaskSegmentCalculator.java:86)
+        at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:85)
+        at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:361)
+        at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:155)
+        at org.apache.maven.cli.MavenCli.execute(MavenCli.java:584)
+        at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:213)
+        at org.apache.maven.cli.MavenCli.main(MavenCli.java:157)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:483)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+[ERROR]
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
+E:\GitHub\BookApp>
